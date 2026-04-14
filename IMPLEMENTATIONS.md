@@ -14,7 +14,7 @@ Suggested implementation status language:
 - `implements OBLE Core`
 - `implements the OBLE Counterparty/Open Item profile`
 - `implements the OBLE Policy/Designations profile`
-- `has emerging support for the OBLE FX and Close/Reopen profiles`
+- `implements the OBLE FX and Close/Reopen profiles with reconstruction-oriented lifecycle handling`
 
 The current `Heft` repository remains the main implementation repo and should
 keep:
