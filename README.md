@@ -61,6 +61,12 @@ The current intent is:
 - future implementations should be able to build against these artifacts
   without reading the full Heft codebase first
 
+See also:
+
+- [STATUS.md](STATUS.md)
+- [VERSIONING.md](VERSIONING.md)
+- [IMPLEMENTATIONS.md](IMPLEMENTATIONS.md)
+
 ## Validation
 
 Use the local validation helper:
@@ -74,6 +80,13 @@ That checks:
 - schema/example map consistency
 - JSON parsing for all examples
 - selected docs cross-references
+
+You can also use the same artifact set from the `Heft` repo by pointing its
+validator at this repository:
+
+```bash
+OBLE_SOURCE=/path/to/oble-repo bash scripts/validate-oble.sh
+```
 
 ## Relationship to Heft
 
