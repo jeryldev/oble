@@ -61,6 +61,10 @@ The current intent is:
 - future implementations should be able to build against these artifacts
   without reading the full Heft codebase first
 
+## License
+
+This repository is licensed under [Apache-2.0](LICENSE).
+
 See also:
 
 - [STATUS.md](STATUS.md)
