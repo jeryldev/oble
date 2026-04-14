@@ -49,6 +49,7 @@ can use to exchange ledger meaning.
 6. [spec/0004-serialization-conformance.md](spec/0004-serialization-conformance.md)
 7. [profiles/profile-matrix.md](profiles/profile-matrix.md)
 8. [conformance/conformance-checklist.md](conformance/conformance-checklist.md)
+9. [conformance/profile-claims.md](conformance/profile-claims.md)
 
 ## Draft status
 
