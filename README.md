@@ -57,6 +57,7 @@ can use to exchange ledger meaning.
 14. [spec/0016-comparative-and-equity-result-packets.md](spec/0016-comparative-and-equity-result-packets.md)
 15. [spec/0017-indirect-cash-flow-and-integrity-result-packets.md](spec/0017-indirect-cash-flow-and-integrity-result-packets.md)
 16. [spec/0018-translated-statement-result-packets.md](spec/0018-translated-statement-result-packets.md)
+17. [spec/0019-audit-trail-and-provenance-result-packets.md](spec/0019-audit-trail-and-provenance-result-packets.md)
 17. [profiles/profile-matrix.md](profiles/profile-matrix.md)
 18. [conformance/conformance-checklist.md](conformance/conformance-checklist.md)
 19. [conformance/profile-claims.md](conformance/profile-claims.md)
