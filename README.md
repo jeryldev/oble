@@ -50,9 +50,12 @@ can use to exchange ledger meaning.
 7. [spec/0009-classifications-and-report-structures.md](spec/0009-classifications-and-report-structures.md)
 8. [spec/0010-dimensions-and-analytics.md](spec/0010-dimensions-and-analytics.md)
 9. [spec/0011-budgets-and-planning.md](spec/0011-budgets-and-planning.md)
-10. [profiles/profile-matrix.md](profiles/profile-matrix.md)
-11. [conformance/conformance-checklist.md](conformance/conformance-checklist.md)
-12. [conformance/profile-claims.md](conformance/profile-claims.md)
+10. [spec/0012-classified-result-packets.md](spec/0012-classified-result-packets.md)
+11. [spec/0013-dimension-summary-result-packets.md](spec/0013-dimension-summary-result-packets.md)
+12. [spec/0014-budget-analysis-result-packets.md](spec/0014-budget-analysis-result-packets.md)
+13. [profiles/profile-matrix.md](profiles/profile-matrix.md)
+14. [conformance/conformance-checklist.md](conformance/conformance-checklist.md)
+15. [conformance/profile-claims.md](conformance/profile-claims.md)
 
 ## Draft status
 
