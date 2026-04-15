@@ -50,9 +50,9 @@ standard boundary or testable conformance surface.
 | Multi-Currency Semantics | Confirmed | Heft stores transaction amounts, base amounts, and FX rates with exact integer arithmetic and revaluation flows. |
 | Close and Reopen Profile | Confirmed | Heft implements close-generated state, opening carry-forward, reopen cascades, and stale derived-state invalidation. |
 | Designations and Policy Profiles | Confirmed | Heft already uses designation-driven book policy heavily. |
-| Classifications and Report Structures | Draft-dependent | Heft has strong native classification semantics and classified-report behavior, but no stable OBLE packet/profile boundary yet. |
-| Dimensions and Analytics | Draft-dependent | Heft has strong native dimension semantics and summaries, but no stable OBLE packet/profile boundary yet. |
-| Budgets and Planning | Draft-dependent | Heft has budget workflow semantics, but no stable OBLE packet/profile boundary yet. |
+| Classifications and Report Structures | Partial | Heft now has an initial Zig-first classification profile bundle for metadata and ordered nodes, but broader packet coverage, examples, and schemas are still missing. |
+| Dimensions and Analytics | Partial | Heft now has an initial Zig-first dimension profile bundle for definitions, values, and line assignments, but broader packet coverage, examples, and schemas are still missing. |
+| Budgets and Planning | Partial | Heft now has an initial Zig-first budget profile bundle for budget metadata, lifecycle state, and budget lines, but broader packet coverage, examples, and schemas are still missing. |
 | Example payload validation | Confirmed | The published OBLE examples map to draft schemas, and Heft's implemented packet shapes follow the same canonical JSON conventions. |
 | Fixture-driven OBLE conformance | Confirmed | Heft now has dedicated conformance tests plus executable round-trip tests for the implemented OBLE packets and profiles. |
 | Canonical `Heft -> OBLE` export | Confirmed | Heft exports canonical OBLE JSON for `Book`, `Account[]`, `Period[]`, `Entry`, `BookSnapshot`, `Counterparty[]`, `ReversalPair`, `CounterpartyOpenItem`, `PolicyProfile`, `CloseReopenProfile`, and `RevaluationPacket`. |

@@ -46,9 +46,9 @@ not yet strong enough to make a clean conformance claim.
 | `Policy / Designations` | `Implemented` | Safe user-authored policy packets round-trip today. |
 | `Multi-Currency` | `Implemented with reconstruction` | Foreign-currency packets export cleanly; lifecycle-derived revaluation behavior is reconstruction-oriented on import. |
 | `Close / Reopen` | `Implemented with reconstruction` | Export is explicit; imported lifecycle state is reconstructed rather than naively replayed. |
-| `Classifications / Report Structures` | `Draft-aligned` | The profile is now defined in draft form, but Heft does not yet expose a standards packet boundary for classifications. |
-| `Dimensions / Analytics` | `Draft-aligned` | The profile is now defined in draft form, but Heft does not yet expose a standards packet boundary for dimensions. |
-| `Budgets / Planning` | `Draft-aligned` | The profile is now defined in draft form, but Heft does not yet expose a standards packet boundary for budgets. |
+| `Classifications / Report Structures` | `Draft-aligned` | Heft now exposes an initial Zig-first classification profile bundle, but broader examples, schemas, and public-surface exposure are still emerging. |
+| `Dimensions / Analytics` | `Draft-aligned` | Heft now exposes an initial Zig-first dimension profile bundle, but broader examples, schemas, and public-surface exposure are still emerging. |
+| `Budgets / Planning` | `Draft-aligned` | Heft now exposes an initial Zig-first budget profile bundle, but broader examples, schemas, and public-surface exposure are still emerging. |
 
 ## Why this matters
 
