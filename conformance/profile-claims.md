@@ -46,7 +46,7 @@ not yet strong enough to make a clean conformance claim.
 | `Policy / Designations` | `Implemented` | Safe user-authored policy packets round-trip today. |
 | `Multi-Currency` | `Implemented with reconstruction` | Foreign-currency packets export cleanly; lifecycle-derived revaluation behavior is reconstruction-oriented on import. |
 | `Close / Reopen` | `Implemented with reconstruction` | Export is explicit; imported lifecycle state is reconstructed rather than naively replayed. |
-| `Classifications / Report Structures` | `Implemented` | Heft now exposes a classification profile bundle through Zig and C export surfaces, supports session-oriented Zig import with logical-ID resolution, and also exports classified result packets as an explicit derived-output layer. |
+| `Classifications / Report Structures` | `Implemented` | Heft now exposes a classification profile bundle through Zig and C export surfaces, supports session-oriented Zig import with logical-ID resolution, and also exports classified, core-statement, comparative-statement, and equity result packets as explicit derived-output layers. |
 | `Dimensions / Analytics` | `Implemented` | Heft now exposes a dimension profile bundle through Zig and C export surfaces, supports session-oriented Zig import with logical-ID resolution, and also exports summary and rollup result packets as an explicit derived-output layer. |
 | `Budgets / Planning` | `Implemented` | Heft now exposes a budget profile bundle through Zig and C export surfaces, supports session-oriented Zig import with logical-ID resolution, and also exports budget-analysis result packets as an explicit derived-output layer. |
 
