@@ -46,9 +46,9 @@ not yet strong enough to make a clean conformance claim.
 | `Policy / Designations` | `Implemented` | Safe user-authored policy packets round-trip today. |
 | `Multi-Currency` | `Implemented with reconstruction` | Foreign-currency packets export cleanly; lifecycle-derived revaluation behavior is reconstruction-oriented on import. |
 | `Close / Reopen` | `Implemented with reconstruction` | Export is explicit; imported lifecycle state is reconstructed rather than naively replayed. |
-| `Classifications / Report Structures` | `Export-first` | Heft now exposes a classification profile bundle through Zig and C export surfaces, while import remains Zig-first and the broader packet/examples/schema story is still emerging. |
-| `Dimensions / Analytics` | `Export-first` | Heft now exposes a dimension profile bundle through Zig and C export surfaces, while import remains Zig-first and the broader packet/examples/schema story is still emerging. |
-| `Budgets / Planning` | `Export-first` | Heft now exposes a budget profile bundle through Zig and C export surfaces, while import remains Zig-first and the broader packet/examples/schema story is still emerging. |
+| `Classifications / Report Structures` | `Implemented` | Heft now exposes a classification profile bundle through Zig and C export surfaces, supports session-oriented Zig import with logical-ID resolution, and keeps broader C import intentionally deferred. |
+| `Dimensions / Analytics` | `Implemented` | Heft now exposes a dimension profile bundle through Zig and C export surfaces, supports session-oriented Zig import with logical-ID resolution, and keeps broader C import intentionally deferred. |
+| `Budgets / Planning` | `Implemented` | Heft now exposes a budget profile bundle through Zig and C export surfaces, supports session-oriented Zig import with logical-ID resolution, and keeps broader C import intentionally deferred. |
 
 ## Why this matters
 
