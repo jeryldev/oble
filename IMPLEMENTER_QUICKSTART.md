@@ -60,9 +60,12 @@ Treat these as later:
 
 - Multi-Currency
 - Close / Reopen
+- Classifications / Report Structures
+- Dimensions / Analytics
+- Budgets / Planning
 
 Those profiles are real, but they carry more lifecycle nuance and
-reconstruction concerns.
+coverage and reconstruction concerns.
 
 ## 4. Validate examples early
 

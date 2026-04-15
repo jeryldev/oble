@@ -47,9 +47,12 @@ can use to exchange ledger meaning.
 4. [spec/0002-lifecycle-invariants.md](spec/0002-lifecycle-invariants.md)
 5. [spec/0003-counterparties-subledgers.md](spec/0003-counterparties-subledgers.md)
 6. [spec/0004-serialization-conformance.md](spec/0004-serialization-conformance.md)
-7. [profiles/profile-matrix.md](profiles/profile-matrix.md)
-8. [conformance/conformance-checklist.md](conformance/conformance-checklist.md)
-9. [conformance/profile-claims.md](conformance/profile-claims.md)
+7. [spec/0009-classifications-and-report-structures.md](spec/0009-classifications-and-report-structures.md)
+8. [spec/0010-dimensions-and-analytics.md](spec/0010-dimensions-and-analytics.md)
+9. [spec/0011-budgets-and-planning.md](spec/0011-budgets-and-planning.md)
+10. [profiles/profile-matrix.md](profiles/profile-matrix.md)
+11. [conformance/conformance-checklist.md](conformance/conformance-checklist.md)
+12. [conformance/profile-claims.md](conformance/profile-claims.md)
 
 ## Draft status
 
