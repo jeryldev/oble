@@ -30,6 +30,8 @@ can use to exchange ledger meaning.
 
 - [spec/](spec/)
   Numbered drafts, introduction, and glossary
+- [spec/why-oble.md](spec/why-oble.md)
+  Purpose and positioning
 - [examples/](examples/)
   Canonical draft example payloads
 - [schema/](schema/)
@@ -42,25 +44,26 @@ can use to exchange ledger meaning.
 ## Reading order
 
 1. [spec/introduction.md](spec/introduction.md)
-2. [spec/0000-vision.md](spec/0000-vision.md)
-3. [spec/0001-core-model.md](spec/0001-core-model.md)
-4. [spec/0002-lifecycle-invariants.md](spec/0002-lifecycle-invariants.md)
-5. [spec/0003-counterparties-subledgers.md](spec/0003-counterparties-subledgers.md)
-6. [spec/0004-serialization-conformance.md](spec/0004-serialization-conformance.md)
-7. [spec/0009-classifications-and-report-structures.md](spec/0009-classifications-and-report-structures.md)
-8. [spec/0010-dimensions-and-analytics.md](spec/0010-dimensions-and-analytics.md)
-9. [spec/0011-budgets-and-planning.md](spec/0011-budgets-and-planning.md)
-10. [spec/0012-classified-result-packets.md](spec/0012-classified-result-packets.md)
-11. [spec/0013-dimension-summary-result-packets.md](spec/0013-dimension-summary-result-packets.md)
-12. [spec/0014-budget-analysis-result-packets.md](spec/0014-budget-analysis-result-packets.md)
-13. [spec/0015-core-statement-result-packets.md](spec/0015-core-statement-result-packets.md)
-14. [spec/0016-comparative-and-equity-result-packets.md](spec/0016-comparative-and-equity-result-packets.md)
-15. [spec/0017-indirect-cash-flow-and-integrity-result-packets.md](spec/0017-indirect-cash-flow-and-integrity-result-packets.md)
-16. [spec/0018-translated-statement-result-packets.md](spec/0018-translated-statement-result-packets.md)
-17. [spec/0019-audit-trail-and-provenance-result-packets.md](spec/0019-audit-trail-and-provenance-result-packets.md)
-17. [profiles/profile-matrix.md](profiles/profile-matrix.md)
-18. [conformance/conformance-checklist.md](conformance/conformance-checklist.md)
-19. [conformance/profile-claims.md](conformance/profile-claims.md)
+2. [spec/why-oble.md](spec/why-oble.md)
+3. [spec/0000-vision.md](spec/0000-vision.md)
+4. [spec/0001-core-model.md](spec/0001-core-model.md)
+5. [spec/0002-lifecycle-invariants.md](spec/0002-lifecycle-invariants.md)
+6. [spec/0003-counterparties-subledgers.md](spec/0003-counterparties-subledgers.md)
+7. [spec/0004-serialization-conformance.md](spec/0004-serialization-conformance.md)
+8. [spec/0009-classifications-and-report-structures.md](spec/0009-classifications-and-report-structures.md)
+9. [spec/0010-dimensions-and-analytics.md](spec/0010-dimensions-and-analytics.md)
+10. [spec/0011-budgets-and-planning.md](spec/0011-budgets-and-planning.md)
+11. [spec/0012-classified-result-packets.md](spec/0012-classified-result-packets.md)
+12. [spec/0013-dimension-summary-result-packets.md](spec/0013-dimension-summary-result-packets.md)
+13. [spec/0014-budget-analysis-result-packets.md](spec/0014-budget-analysis-result-packets.md)
+14. [spec/0015-core-statement-result-packets.md](spec/0015-core-statement-result-packets.md)
+15. [spec/0016-comparative-and-equity-result-packets.md](spec/0016-comparative-and-equity-result-packets.md)
+16. [spec/0017-indirect-cash-flow-and-integrity-result-packets.md](spec/0017-indirect-cash-flow-and-integrity-result-packets.md)
+17. [spec/0018-translated-statement-result-packets.md](spec/0018-translated-statement-result-packets.md)
+18. [spec/0019-audit-trail-and-provenance-result-packets.md](spec/0019-audit-trail-and-provenance-result-packets.md)
+19. [profiles/profile-matrix.md](profiles/profile-matrix.md)
+20. [conformance/conformance-checklist.md](conformance/conformance-checklist.md)
+21. [conformance/profile-claims.md](conformance/profile-claims.md)
 
 ## Draft status
 
