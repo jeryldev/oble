@@ -51,6 +51,20 @@ not yet strong enough to make a clean conformance claim.
 | `Budgets / Planning` | `Implemented` | Heft now exposes a budget profile bundle through Zig and C export surfaces, supports session-oriented Zig import with logical-ID resolution, and also exports budget-analysis result packets as an explicit derived-output layer. |
 | `Audit / Provenance` | `Export-first` | Heft now exports audit-trail result packets with immutable audit records and hash-chain visibility for inspection, while richer native audit internals remain engine-specific. |
 
+## Practical downstream note
+
+Heft's native ABI is now deliberately richer than the minimum OBLE packet
+surface in a few areas that help clients implement the profiles safely:
+
+- preview-close output for generated lifecycle entries
+- structured verification diagnostics
+- explicit error names/messages
+- runtime-published fixed-point scales
+
+Those helpers should be treated as implementation conveniences that make profile
+claims easier to exercise and debug. They are not a substitute for the profile
+packets themselves.
+
 ## Why this matters
 
 These claim levels are more honest than a single binary statement like

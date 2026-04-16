@@ -62,6 +62,22 @@ standard boundary or testable conformance surface.
 | Canonical `OBLE -> Heft` import | Partial | Heft imports the implemented core, book snapshot, reversal, counterparty/open-item, and policy-profile packets and round-trips the safe user-authored layers successfully. Importer support is strongest in Zig, and Heft now also exposes a minimal C ABI import-session boundary for the stable packet set with explicit logical-ID mapping and packet-order semantics. Zig import sessions can additionally import the safe user-authored portions of FX and policy/lifecycle bundles while reporting the presence of derived packets that still require engine reconstruction. Not every lifecycle-derived packet is imported directly. |
 | Semantic equivalence verification | Confirmed | Heft now includes a dedicated semantic-verification layer that compares canonical exported semantics and trial-balance meaning across source and target ledgers after OBLE interchange. |
 
+## Current implementation-facing boundary notes
+
+Heft now also exposes a richer native integration boundary around the OBLE
+surface:
+
+- symbolic error names plus human-readable error messages
+- runtime scale discovery for amounts and FX rates
+- structured verification diagnostics
+- preview-close packets that show the generated closing/opening entries before
+  commit, including line-level detail
+
+These are implementation-facing helpers, not new OBLE packet families by
+themselves. They matter because they make it much easier for downstream tools
+such as Tilvek to present OBLE-aligned lifecycle behavior without inventing
+extra semantics or guessing from raw engine state.
+
 ## Detail by draft area
 
 ## OBLE Core
