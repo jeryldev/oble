@@ -51,7 +51,7 @@ Use the example and schema set for the core packet first:
 
 The first useful profiles after core are usually:
 
-- Counterparty / Open Item
+- Counterparties / Open Items
 - Policy / Designations
 
 Add these only after core is solid.
@@ -85,7 +85,7 @@ Good early claim:
 
 Better later claims:
 
-- `implements the OBLE Counterparty/Open Item profile`
+- `implements the OBLE Counterparties/Open Items profile`
 - `implements the OBLE Policy/Designations profile`
 
 Avoid saying:

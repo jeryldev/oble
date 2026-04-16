@@ -42,7 +42,7 @@ not yet strong enough to make a clean conformance claim.
 | Profile | Claim level | Notes |
 | --- | --- | --- |
 | `OBLE Core` | `Implemented` | Core packet export/import and round-trip verification exist. |
-| `Counterparty / Open Item` | `Implemented` | Export/import and round-trip support exist. |
+| `Counterparties / Open Items` | `Implemented` | Export/import and round-trip support exist. |
 | `Policy / Designations` | `Implemented` | Safe user-authored policy packets round-trip today. |
 | `Multi-Currency` | `Implemented with reconstruction` | Foreign-currency packets export cleanly; lifecycle-derived revaluation behavior is reconstruction-oriented on import, and translated statement results are export-first derived outputs. |
 | `Close / Reopen` | `Implemented with reconstruction` | Export is explicit; imported lifecycle state is reconstructed rather than naively replayed, and integrity summaries are export-first verification outputs. |

@@ -2,8 +2,7 @@
 
 OBLE stands for Open Bookkeeping Ledger Exchange.
 
-This repository is the standalone standards home for the current OBLE draft
-packet.
+This repository is the standalone standards home for the current OBLE draft.
 
 Current draft version:
 
@@ -11,7 +10,7 @@ Current draft version:
 
 ## What OBLE is
 
-OBLE is an open ledger semantics and exchange standard for:
+OBLE is an open standard for exchanging ledger meaning across:
 
 - books
 - accounts
@@ -23,8 +22,8 @@ OBLE is an open ledger semantics and exchange standard for:
 
 OBLE is not an accounting engine.
 
-It is the common language that engines, tools, migration workflows, and agents
-can use to exchange ledger meaning.
+It is a common language for engines, tools, migration workflows, and agents to
+exchange ledger meaning without reducing everything to app-specific exports.
 
 ## Repository layout
 
@@ -71,7 +70,7 @@ This repository should be treated as a working standard, not a frozen one.
 
 The current intent is:
 
-- `draft-0` defines the first coherent public packet
+- `draft-0` defines the first coherent public standard surface
 - `Heft` is the reference implementation candidate
 - future implementations should be able to build against these artifacts
   without reading the full Heft codebase first
