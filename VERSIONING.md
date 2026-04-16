@@ -20,7 +20,7 @@ Current version:
 
 Compatibility statements should look like:
 
-- `Heft 0.1.1 implements OBLE draft-0 core, plus the stable Counterparty/Open Item and Policy/Designations profiles.`
+- `Heft 0.1.1 implements OBLE draft-0 core, plus the stable Counterparties / Open Items and Policy/Designations profiles.`
 - `Heft 0.1.1 implements OBLE draft-0 FX and Close/Reopen with reconstruction-oriented lifecycle handling.`
 
 They should not imply:

@@ -45,6 +45,9 @@ docs = [
     Path("schema/README.md"),
     Path("schema/validation.md"),
     Path("profiles/profile-matrix.md"),
+    Path("profiles/import-boundary.md"),
+    Path("conformance/conformance-checklist.md"),
+    Path("conformance/heft-conformance.md"),
 ]
 pattern = re.compile(r"\[[^\]]+\]\(([^)]+)\)")
 

@@ -12,7 +12,7 @@ Implementation roles should stay distinct:
 Suggested implementation status language:
 
 - `implements OBLE Core`
-- `implements the OBLE Counterparty/Open Item profile`
+- `implements the OBLE Counterparties / Open Items profile`
 - `implements the OBLE Policy/Designations profile`
 - `implements the OBLE FX and Close/Reopen profiles with reconstruction-oriented lifecycle handling`
 
